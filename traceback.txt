@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 50, in script
+    s "Hi there! How was class?"
+Exception: Sayer 's' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 50, in script
+    s "Hi there! How was class?"
+  File "C:\Users\notaaash\Downloads\renpy-8.1.2-sdk\renpy\ast.py", line 890, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\notaaash\Downloads\renpy-8.1.2-sdk\renpy\ast.py", line 783, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 's' is not defined.
+
+Windows-10-10.0.19044 AMD64
+Ren'Py 8.1.2.23090503
+Legal Learners 
+Sun Sep 10 13:29:27 2023
